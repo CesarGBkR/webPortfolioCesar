@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Qualy;
+    src: url(./assets/Fonts/Qualy.ttf);
+}
+
+@font-face {
+    font-family: Modern;
+    src: url(./assets/Fonts/modern.ttf);
+}
+@font-face {
+    font-family: Babel;
+    src: url(./assets/Fonts/BabelSans.ttf);
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    background: #1f1135;
+}
+body{
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    background-color: #1f1135;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 10px 5px #0d0214; 
+    box-shadow: 5px 5px 10px 5px #0d0214;
+}
+
+.navbutton{
+    display: flex;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+
+.logo{
+    display: flexbox;
+    width: 15rem;
+    height: 4rem;
+    position: absolute;
+    top: 1.575rem;
+    left: 1rem;
+}
+
+.instagram{
+    position:absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.linkedin{
+    position:absolute;
+    top: 2rem;
+    right: 5rem;
+}
+.github{
+    position:absolute;
+    top: 2rem;
+    right: 9rem;
+}
+
+
+.welcome{
+    font-family: Qualy;
+    font-size: 6rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1); 
+    color: transparent; 
+}
+
+.presentation{
+    position: absolute;
+    top: 27.5rem;
+    font-family: Modern;
+    font-size: 1.75rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+
+.aboutMe{
+    font-size: Modern;
+    font-size: 2rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+.Cesar{
+    border-radius:100%;
+    width: 12.5rem;
+    height: 12.5rem;
+    position: absolute;
+    right:1.5rem;
+    top: 12.5rem;
+
+    -webkit-box-shadow: 5px 5px 10px 5px #0d0214; 
+    box-shadow: 5px 5px 10px 5px #0d0214;
+}
+.body{
+    background-color: #290e3e;
+    width: 90%;
+    height: 50rem;
+    position: relative;
+    left: 5%;
+    top: 25rem;
+    opacity: 100%;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    
+    -webkit-box-shadow: 5px 5px 15px 5px #0d0214; 
+    box-shadow: 5px 5px 15px 5px #0e0116;
+}
+
+.borderbody{
+    opacity: 100%;
+    background-color: none;
+    width: 80%;
+    height: 87.5%;
+    position: relative;
+    top: 4%;
+    display: flex;
+    justify-content: center;
+
+border-color: #68be0c;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.bar{
+    display: flexbox;
+    opacity: 100%;
+    border-radius: .5rem;
+    background: linear-gradient(180deg, #7EE70F,#68be0c);
+    width: 90%;
+    height: 5%;
+    position: relative;
+    top: 3%;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #1a0e22; 
+    box-shadow: 5px 5px 15px 5px #0e0116;
+}
+
+.point{
+    display: flex;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(to top right, #320d4e, #6e1dac);
+    position: relative;
+    top: 15%;
+    left: .75rem;
+}
+.point2{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 25%;
+    left: 3rem;
+
+    border-radius: 100%;
+    background: linear-gradient(to top right, #320d4e, #6e1dac);
+}
+
+.point3{
+    position: absolute;
+    left: 4.5rem;
+}
+
+.terminalName{
+    border-radius: .5rem;
+    width: 12.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 15%;
+    left: 8rem;
+
+    text-align: center;
+    background: linear-gradient(to top right, #320d4e, #6e1dac)
+    
+}
+.terminalNameText{
+    font-family: Modern;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent; 
+}
+.atributes{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 87%;
+    /* background-color: #7EE70F; */
+    opacity: 100%;
+}
+
+.webDiv{
+    position: relative;
+    top: 3%;
+
+    font-family: Modern;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+
+.ctfDiv{
+    position: relative;
+    top: 12.5%;
+}
+.designeDiv{
+    position: relative;
+    top: 22.5%;
+}
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to top right, #1d0a2c, #45136a);
+    position: relative;
+    top: 30rem;
+}

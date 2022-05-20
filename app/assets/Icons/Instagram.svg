@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:layerName CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:mask CDATA #IMPLIED >
+<!ATTLIST text
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:width CDATA #IMPLIED >
+
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ENTITY % SVG.filter.extra.content  "| feDropShadow" >
+<!ELEMENT feDropShadow EMPTY>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dx CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dy CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  stdDeviation CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-opacity CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  in CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  result CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-color CDATA #IMPLIED>
+]
+>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 24 24" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="11.7006" x2="20.4123" y1="13.2245" y2="0.577386">
+<stop offset="0" stop-color="#31652a"/>
+<stop offset="0.165289" stop-color="#387c2b"/>
+<stop offset="0.333333" stop-color="#3f942c"/>
+<stop offset="0.666667" stop-color="#42b427"/>
+<stop offset="1" stop-color="#57d430"/>
+</linearGradient>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient_2" x1="8.88336" x2="24.9718" y1="12.8505" y2="0.741268">
+<stop offset="0.0764463" stop-color="#31652a"/>
+<stop offset="0.272727" stop-color="#3f942c"/>
+<stop offset="0.365702" stop-color="#42b427"/>
+<stop offset="0.615702" stop-color="#57d430"/>
+</linearGradient>
+</defs>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path d="M16.4467 1.901L7.55783 1.901C4.4945 1.901 2.00228 4.39322 2.00228 7.45655L2.00228 16.3454C2.00228 19.4088 4.4945 21.901 7.55783 21.901L16.4467 21.901C19.5101 21.901 22.0023 19.4088 22.0023 16.3454L22.0023 7.45655C22.0023 4.39322 19.5101 1.901 16.4467 1.901ZM19.7801 16.3454C19.7801 18.1832 18.2845 19.6788 16.4467 19.6788L7.55783 19.6788C5.72006 19.6788 4.2245 18.1832 4.2245 16.3454L4.2245 7.45655C4.2245 5.61878 5.72006 4.12322 7.55783 4.12322L16.4467 4.12322C18.2845 4.12322 19.7801 5.61878 19.7801 7.45655L19.7801 16.3454Z" fill="url(#LinearGradient)" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M12.0023 6.34544C8.93894 6.34544 6.44672 8.83767 6.44672 11.901C6.44672 14.9643 8.93894 17.4566 12.0023 17.4566C15.0656 17.4566 17.5578 14.9643 17.5578 11.901C17.5578 8.83767 15.0656 6.34544 12.0023 6.34544ZM12.0023 15.2343C10.1645 15.2343 8.66894 13.7388 8.66894 11.901C8.66894 10.0632 10.1645 8.56767 12.0023 8.56767C13.8401 8.56767 15.3356 10.0632 15.3356 11.901C15.3356 13.7388 13.8401 15.2343 12.0023 15.2343ZM17.5578 5.23433C16.9442 5.23433 16.4467 5.73179 16.4467 6.34544C16.4467 6.95909 16.9442 7.45655 17.5578 7.45655C18.1715 7.45655 18.6689 6.95909 18.6689 6.34544C18.6689 5.73179 18.1715 5.23433 17.5578 5.23433Z" fill="url(#LinearGradient_2)" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>
