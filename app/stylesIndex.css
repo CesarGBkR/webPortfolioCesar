@@ -1,0 +1,346 @@
+@font-face {
+    font-family: Qualy;
+    src: url(./assets/Fonts/Qualy.ttf);
+}
+
+@font-face {
+    font-family: Modern;
+    src: url(./assets/Fonts/modern.ttf);
+}
+@font-face {
+    font-family: Babel;
+    src: url(./assets/Fonts/BabelSans.ttf);
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    background: #1f1135;
+}
+body{
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    background-color: #1f1135;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 10px 5px #0d0214; 
+    box-shadow: 5px 5px 10px 5px #0d0214;
+}
+
+.navbutton{
+    display: flex;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+
+.logo{
+    display: flexbox;
+    width: 15rem;
+    height: 4rem;
+    position: absolute;
+    top: 1.575rem;
+    left: 1rem;
+}
+
+.instagram{
+    position:absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.linkedin{
+    position:absolute;
+    top: 2rem;
+    right: 5rem;
+}
+.github{
+    position:absolute;
+    top: 2rem;
+    right: 9rem;
+}
+
+
+.welcome{
+    font-family: Qualy;
+    font-size: 6rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1); 
+    color: transparent; 
+}
+
+.presentation{
+    position: absolute;
+    top: 25.5rem;
+    font-family: Modern;
+    font-size: 2.25rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+
+.aboutMe{
+    font-size: Modern;
+    font-size: 2rem;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+.Cesar{
+    border-radius:100%;
+    width: 13rem;
+    height: 13rem;
+    position: absolute;
+    right:2rem;
+    top: 10rem;
+
+    -webkit-box-shadow: 5px 5px 10px 5px #0d0214; 
+    box-shadow: 5px 5px 10px 5px #0d0214;
+}
+.body{
+    background-color: #290e3e;
+    width: 90%;
+    height: 50rem;
+    position: relative;
+    left: 5%;
+    top: 25rem;
+    opacity: 100%;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    
+    -webkit-box-shadow: 5px 5px 15px 5px #0d0214; 
+    box-shadow: 5px 5px 15px 5px #0e0116;
+}
+
+.borderbody{
+    background-color: none;
+    width: 80%;
+    height: 87.5%;
+    position: relative;
+    top: 4%;
+    display: flex;
+    justify-content: center;
+
+border-color: #68be0c;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.bar{
+    display: flexbox;
+    border-radius: .5rem;
+    background: linear-gradient(180deg, #7EE70F,#68be0c);
+    width: 90%;
+    height: 5%;
+    position: relative;
+    top: 3%;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #1a0e22; 
+    box-shadow: 5px 5px 15px 5px #0e0116;
+}
+
+.point{
+    display: flex;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(to top right, #320d4e, #6e1dac);
+    position: relative;
+    top: 15%;
+    left: .75rem;
+}
+.point2{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 25%;
+    left: 3rem;
+
+    border-radius: 100%;
+    background: linear-gradient(to top right, #320d4e, #6e1dac);
+}
+
+.point3{
+    position: absolute;
+    left: 4.5rem;
+}
+
+.terminalName{
+    border-radius: .5rem;
+    width: 12.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 15%;
+    left: 8rem;
+
+    text-align: center;
+    background: linear-gradient(to top right, #320d4e, #6e1dac)
+    
+}
+.terminalNameText{
+    font-family: Modern;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent; 
+}
+.atributes{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 87%;
+    opacity: 100%;
+}
+
+.webDiv{
+    position: relative;
+    top: 3%;
+
+    font-family: Modern;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
+
+.ctfDiv{
+    position: relative;
+    top: 12.5%;
+}
+.designeDiv{
+    position: relative;
+    top: 22.5%;
+}
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to top right, #1d0a2c, #45136a);
+    position: relative;
+    top: 30rem;
+}
+
+
+@media only screen and (min-width: 810px) {
+    h1{
+        display: flex-box;
+    }
+.navbutton{
+    width: 5rem;
+    height: 5rem;
+}
+.logo{
+width: 25rem;
+height: 6rem;
+position: absolute;
+top: 0rem;
+left: 1rem;
+}
+
+.instagram{
+    position:absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.linkedin{
+    position:absolute;
+    top: 1rem;
+    right: 7rem;
+}
+.github{
+    position:absolute;
+    top: 1rem;
+    right: 13rem;
+}
+.welcome{
+    font-size: 8rem;
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+}
+.presentation{
+    position: absolute;
+    top: 30rem;
+    font-size: 3rem; 
+}
+.Cesar{
+    border-radius:100%;
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    right:5rem;
+    top: 11rem;
+}
+.borderbody{
+    width: 90%;
+    height: 87.5%;
+}
+.bar{
+    width: 95%;
+    height: 6%;
+    position: relative;
+    top: 3%;
+}
+.point{
+    position: relative;
+    top: 18%;
+    left: 1.8rem;
+}
+.point2{
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute;
+    top: 25.1%;
+    left: 4.3rem;
+}
+
+.point3{
+    position: absolute;
+    left: 6.1rem;
+}
+.terminalName{
+    width: 60%;
+    height: 1.75rem;
+    position: absolute;
+    top: 15.6%;
+    left: 14rem;
+    
+}
+.terminalNameText{
+    font-size: 1.75rem;
+}
+.webDiv{
+    position: relative;
+    top: 7%;
+
+    font-size: 2.2rem;
+}
+
+.ctfDiv{
+    position: relative;
+    top: 20.5%;
+}
+.designeDiv{
+    position: relative;
+    top: 33.5%;
+}
+
+.footer{
+    width: 0;
+    height: 0rem;
+}
+}
