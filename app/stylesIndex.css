@@ -344,3 +344,124 @@ left: 1rem;
     height: 0rem;
 }
 }
+
+@media only screen and (min-width: 1300px) {
+    h1{
+        display: flex-box;
+    }
+.navbutton{
+    width: 6rem;
+    height: 6rem;
+}
+.logo{
+width: 40rem;
+height: 7rem;
+position: absolute;
+top: 0rem;
+left: 1rem;
+}
+
+.instagram{
+    position:absolute;
+    top: 0rem;
+    right: 2rem;
+}
+.linkedin{
+    position:absolute;
+    top: 0rem;
+    right: 10rem;
+}
+.github{
+    position:absolute;
+    top: 0rem;
+    right: 18rem;
+}
+.welcome{
+    font-size: 10rem;
+    position: relative;
+    top: 3rem;
+    left: 5%;
+}
+.presentation{
+    width: 125rem;
+    height: 20rem;
+    position: absolute;
+    top: 40rem;
+    left: 5%;
+    font-size: 4rem; 
+}
+.Cesar{
+    border-radius:100%;
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    right:15rem;
+    top: 11rem;
+}
+.body{
+    width: 80%;
+    height: 70rem;
+    position: relative;
+    left: 10%;
+    top: 35rem;
+}
+
+.borderbody{
+    width: 95%;
+    height: 87.5%;
+}
+.bar{
+    width: 95%;
+    height: 6%;
+    position: relative;
+    top: 3%;
+}
+.point{
+    position: relative;
+    top: 18%;
+    left: 1.8rem;
+}
+.point2{
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute;
+    top: 25.1%;
+    left: 4.3rem;
+}
+
+.point3{
+    position: absolute;
+    left: 6.1rem;
+}
+.terminalName{
+    width: 60%;
+    height: 1.75rem;
+    position: absolute;
+    top: 15.6%;
+    left: 22.5rem;
+    
+}
+.terminalNameText{
+    font-size: 1.75rem;
+}
+.webDiv{
+    position: relative;
+    top: 7%;
+
+    font-size: 3rem;
+}
+
+.ctfDiv{
+    position: relative;
+    top: 20.5%;
+}
+.designeDiv{
+    position: relative;
+    top: 33.5%;
+}
+
+.footer{
+    width: 0;
+    height: 0rem;
+}
+}
