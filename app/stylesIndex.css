@@ -254,7 +254,6 @@ left: 1rem;
 .instagram{
     position:absolute;
     top: 1rem;
-    right: 1rem;
 }
 .linkedin{
     position:absolute;
@@ -278,7 +277,6 @@ left: 1rem;
     font-size: 3rem; 
 }
 .Cesar{
-    border-radius:100%;
     width: 18rem;
     height: 18rem;
     position: absolute;
@@ -287,13 +285,11 @@ left: 1rem;
 }
 .borderbody{
     width: 90%;
-    height: 87.5%;
 }
 .bar{
     width: 95%;
     height: 6%;
     position: relative;
-    top: 3%;
 }
 .point{
     position: relative;
@@ -391,7 +387,6 @@ left: 1rem;
     font-size: 4rem; 
 }
 .Cesar{
-    border-radius:100%;
     width: 25rem;
     height: 25rem;
     position: absolute;
@@ -408,56 +403,21 @@ left: 1rem;
 
 .borderbody{
     width: 95%;
-    height: 87.5%;
 }
 .bar{
     width: 95%;
     height: 6%;
     position: relative;
-    top: 3%;
 }
 .point{
     position: relative;
     top: 18%;
     left: 1.8rem;
 }
-.point2{
-    width: 1.3rem;
-    height: 1.3rem;
-    position: absolute;
-    top: 25.1%;
-    left: 4.3rem;
-}
 
-.point3{
-    position: absolute;
-    left: 6.1rem;
-}
 .terminalName{
-    width: 60%;
-    height: 1.75rem;
-    position: absolute;
-    top: 15.6%;
     left: 22.5rem;
     
-}
-.terminalNameText{
-    font-size: 1.75rem;
-}
-.webDiv{
-    position: relative;
-    top: 7%;
-
-    font-size: 3rem;
-}
-
-.ctfDiv{
-    position: relative;
-    top: 20.5%;
-}
-.designeDiv{
-    position: relative;
-    top: 33.5%;
 }
 
 .footer{
