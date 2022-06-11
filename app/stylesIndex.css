@@ -465,3 +465,75 @@ left: 1rem;
     height: 0rem;
 }
 }
+@media only screen and (min-width: 1600px){
+    .navbutton{
+        width: 7rem;
+        height: 7rem;
+    }
+    .logo{
+    width: 45rem;
+    height: 8rem;
+    position: absolute;
+    left: 3rem;
+    }
+    
+    .instagram{
+        position:absolute;
+        right: 6rem;
+    }
+    .linkedin{
+        position:absolute;
+        right: 17rem;
+    }
+    .github{
+        position:absolute;
+        right: 28rem;
+    }
+    .welcome{
+        position: relative;
+        left: 10%;
+    }
+    .presentation{
+        width: 125rem;
+        position: absolute;
+        left: 10%;
+    }
+    .Cesar{
+        position: absolute;
+        right:10rem;
+    }
+    .point{
+        width: 2.5rem;
+        height: 2.5rem;
+
+        position: relative;
+        top: 15%;
+        left: 1.8rem;
+    }
+    .point2{
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        top: 20%;
+        left: 5.5rem;
+    }
+    
+    .point3{
+        position: absolute;
+        left: 8.5rem;
+    }
+    .terminalName{
+        width: 70%;
+        height: 2.5rem;
+        position: absolute;
+        top: 15.6%;
+        left: 20rem;
+        
+    }
+    .terminalNameText{
+        font-size: 2rem;
+    }
+    .webDiv{    
+        font-size: 3.5rem;
+    }
+}
