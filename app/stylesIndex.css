@@ -410,14 +410,35 @@ left: 1rem;
     position: relative;
 }
 .point{
+    width: 2rem;
+    height: 2rem;
+
     position: relative;
-    top: 18%;
+    top: 20%;
     left: 1.8rem;
 }
+.point2{
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 27.5%;
+    left: 5.25rem;
+}
 
+.point3{
+    position: absolute;
+    left: 8rem;
+}
 .terminalName{
-    left: 22.5rem;
-    
+        width: 70%;
+        height: 2.3rem;
+        position: absolute;
+        top: 18%;
+        left: 19rem;
+        
+    }
+.webDiv{    
+        font-size: 3rem;
 }
 
 .footer{
