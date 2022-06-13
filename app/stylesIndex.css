@@ -203,7 +203,15 @@ border-color: #68be0c;
     height: 87%;
     opacity: 100%;
 }
-
+.link{
+    font-size: 3rem;
+    font-family: Qualy;
+    text-decoration: underline;
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;  
+}
 .webDiv{
     position: relative;
     top: 3%;
