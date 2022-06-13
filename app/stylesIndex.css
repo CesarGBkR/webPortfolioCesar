@@ -204,7 +204,7 @@ border-color: #68be0c;
     opacity: 100%;
 }
 .link{
-    font-size: 3rem;
+    font-size: 1.2rem;
     font-family: Qualy;
     text-decoration: underline;
     background: linear-gradient(180deg, #7EE70F,#1FA819);
@@ -327,6 +327,9 @@ left: 1rem;
 .terminalNameText{
     font-size: 1.75rem;
 }
+.link{
+    font-size: 1.5rem;
+}
 .webDiv{
     position: relative;
     top: 7%;
@@ -336,11 +339,11 @@ left: 1rem;
 
 .ctfDiv{
     position: relative;
-    top: 20.5%;
+    top: 15.5%;
 }
 .designeDiv{
     position: relative;
-    top: 33.5%;
+    top: 25.5%;
 }
 
 .footer{
@@ -438,13 +441,16 @@ left: 1rem;
     left: 8rem;
 }
 .terminalName{
-        width: 70%;
-        height: 2.3rem;
-        position: absolute;
-        top: 18%;
-        left: 19rem;
+    width: 70%;
+    height: 2.3rem;
+    position: absolute;
+    top: 18%;
+    left: 19rem;
         
-    }
+}
+.link{
+    font-size: 2.3rem;
+}
 .webDiv{    
         font-size: 3rem;
 }
@@ -521,6 +527,9 @@ left: 1rem;
     }
     .terminalNameText{
         font-size: 2rem;
+    }
+    .link{
+        font-size: 2.7rem;
     }
     .webDiv{    
         font-size: 3.5rem;
