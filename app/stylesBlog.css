@@ -19,12 +19,15 @@ html{
     background: #1f1135;
 }
 body{
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .nav{
     display: flex;
-    height: 7rem;
+    height: 5rem;
     width: 100%;
     background-color: #1f1135;
     position: relative;
@@ -45,26 +48,25 @@ body{
     width: 15rem;
     height: 4rem;
     position: absolute;
-    top: 1.575rem;
+    top: .5rem;
     left: 1rem;
 }
 
 .instagram{
     position:absolute;
-    top: 2rem;
+    top: 1rem;
     right: 1rem;
 }
 .linkedin{
     position:absolute;
-    top: 2rem;
+    top: 1rem;
     right: 5rem;
 }
 .github{
     position:absolute;
-    top: 2rem;
+    top: 1rem;
     right: 9rem;
 }
-
 
 .welcome{
     margin: 3rem 0rem 0rem 1.75rem;
@@ -80,8 +82,8 @@ body{
 .bodyTemplate{
     width: 89.3%;
     height: 30rem;
-    margin: 5rem auto;
-    display: flexbox;
+    margin: 2rem auto;
+
 }
 
 .titleTemplate{
@@ -116,15 +118,35 @@ body{
 }
 
 .imgTemplate{
+    border-radius: .5rem;
     width: 90%;
     height: 15.75rem;
     position: relative;
     top: 12.5%;
     margin: auto;
 
+    border-color: none;
     background-color: #290e3e;
     -webkit-box-shadow: 5px 5px 15px 5px #0d0214; 
     box-shadow: 5px 5px 15px 5px #0e0116;
+}
+
+.date{
+    position: relative;
+    top: 14%;
+    margin: auto;
+}
+.date span{
+    font-family: Modern;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    position: absolute;
+    right: 10%;
+
+    background: linear-gradient(180deg, #7EE70F,#1FA819);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent; 
 }
 
 
