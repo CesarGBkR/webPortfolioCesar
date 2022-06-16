@@ -106,7 +106,7 @@ body{
     font-size: 1.6rem;
     font-weight: bolder;
     width: 90%;
-    height: 7.5rem;
+    height: auto;
     position: relative;
     top: 5.5%;
     margin-left: 1.5rem;
@@ -123,7 +123,7 @@ body{
     height: 15.75rem;
     position: relative;
     top: 12.5%;
-    margin: auto;
+    margin-left: 1.5rem;
 
     border-color: none;
     background-color: #290e3e;
@@ -150,41 +150,87 @@ body{
 }
 
 
-@media only screen and (min-width: 810px) {
-    h1{
-        display: flex-box;
+@media only screen and (min-width: 600px) {
+    .nav{
+        height: 6rem;
     }
-.navbutton{
-    width: 5rem;
-    height: 5rem;
-}
-.logo{
-width: 25rem;
-height: 6rem;
-position: absolute;
-top: 0rem;
-left: 1rem;
-}
+    
+    .navbutton{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: .5rem;
+    }
+    
+    .logo{
+        width: 23rem;
+        height: 5rem;
+        margin-top: .5rem;
+    }
+    
+    .instagram{
+        position:absolute;
+        right: 2rem;
+    }
+    .linkedin{
+        position:absolute;
+        right: 7rem;
+    }
+    .github{
+        position:absolute;
+        right: 12rem;
+    }
 
-.instagram{
-    position:absolute;
-    top: 1rem;
-    right: 1rem;
-}
-.linkedin{
-    position:absolute;
-    top: 1rem;
-    right: 7rem;
-}
-.github{
-    position:absolute;
-    top: 1rem;
-    right: 13rem;
-}
 .welcome{
-    font-size: 8rem;
+    font-size: 4rem;
     position: relative;
     top: 0rem;
-    left: 3rem;
+    left: 2rem;
+}
+.bodyTemplate{
+    width: 89.3%;
+    height: auto;
+    margin: 2rem auto;
+
+}
+
+.titleTemplate{
+    font-size: 4rem;
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 5%;
+    margin-top: 2rem;
+    margin-left: 4.75rem;
+}
+
+.contentTemplate{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    width: 85%;
+    height: auto;
+    margin-top: .7rem;
+    margin-left: 4.75rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.imgTemplate{
+    width: 85%;
+    height: 25rem;
+    position: relative;
+    top: 12.5%;
+    margin-left: 4.75rem;
+}
+
+.date{
+    position: relative;
+    top: 14%;
+    margin: auto;
+}
+.date span{
+    font-size: 2.5rem;
+    position: absolute;
+    right: 6%;
 }
 }
