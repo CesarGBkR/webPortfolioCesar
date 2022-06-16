@@ -234,3 +234,92 @@ body{
     right: 6%;
 }
 }
+
+@media only screen and (min-width: 1300px) {
+    .nav{
+        height: 6rem;
+    }
+    
+    .navbutton{
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        top: 0%;
+    }
+    
+    .logo{
+        width: 23rem;
+        height: 5rem;
+        position: absolute;
+        top: 0%;
+        left: 3rem;
+    }
+    
+    .instagram{
+        position:absolute;
+        right: 3rem;
+    }
+    .linkedin{
+        position:absolute;
+        right: 10rem;
+    }
+    .github{
+        position:absolute;
+        right: 17rem;
+    }
+
+.welcome{
+    width: 90%;
+    font-size: 6rem;
+    position: relative;
+    top: 0rem;
+    left: 10rem;
+}
+.bodyTemplate{
+    width: 89.3%;
+    height: auto;
+    margin: 2rem auto;
+
+}
+
+.titleTemplate{
+    font-size: 5rem;
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 5%;
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+
+.contentTemplate{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    width: 80%;
+    height: auto;
+    margin-top: .7rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.imgTemplate{
+    width: 80%;
+    height: 40rem;
+    position: relative;
+    top: 12.5%;
+    margin-left: 12rem;
+}
+
+.date{
+    position: relative;
+    top: 14%;
+    margin: auto;
+}
+.date span{
+    font-size: 2.5rem;
+    position: absolute;
+    right: 10%;
+}
+}
