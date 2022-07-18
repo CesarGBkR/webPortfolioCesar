@@ -67,7 +67,11 @@ body{
     top: 1rem;
     right: 9rem;
 }
-
+.twitter{
+    position:absolute;
+    top: 1rem;
+    right: 13rem;
+}
 
 .welcome{
     font-family: Qualy;
@@ -271,6 +275,11 @@ left: 1rem;
     top: .5rem;
     right: 13rem;
 }
+.twitter{
+    position:absolute;
+    top: .5rem;
+    right: 19rem;
+}
 .welcome{
     font-size: 8rem;
     position: relative;
@@ -376,6 +385,10 @@ left: 1rem;
     position:absolute;
     right: 18rem;
 }
+.twitter{
+    position:absolute;
+    right: 26rem;
+}
 .welcome{
     font-size: 10rem;
     position: relative;
@@ -478,7 +491,11 @@ left: 1rem;
     }
     .github{
         position:absolute;
-        right: 26rem;
+        right: 25rem;
+    }
+    .twitter{
+        position:absolute;
+        right: 35rem;
     }
     .welcome{
         position: relative;

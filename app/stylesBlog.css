@@ -67,7 +67,11 @@
         top: 1rem;
         right: 9rem;
     }
-
+    .twitter{
+        position:absolute;
+        top: 1rem;
+        right: 11rem;
+    }
     .welcome{
         margin: 3rem 0rem 0rem 1.75rem;
 
