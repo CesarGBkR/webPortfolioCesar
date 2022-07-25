@@ -52,7 +52,7 @@ body{
     left: 1rem;
 }
 
-.instagram{
+.blog{
     position:absolute;
     top: 1rem;
     right: 1rem;
@@ -261,7 +261,7 @@ top: 0rem;
 left: 1rem;
 }
 
-.instagram{
+.blog{
     position:absolute;
     top: .5rem;
 }
@@ -373,7 +373,7 @@ top: 0rem;
 left: 1rem;
 }
 
-.instagram{
+.blog{
     position:absolute;
     right: 2rem;
 }
@@ -481,7 +481,7 @@ left: 1rem;
     left: 3rem;
     }
     
-    .instagram{
+    .blog{
         position:absolute;
         right: 5rem;
     }
