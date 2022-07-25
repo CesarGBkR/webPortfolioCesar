@@ -497,6 +497,11 @@ left: 1rem;
         position:absolute;
         right: 35rem;
     }
+    .blog{
+        position:absolute;
+        top: .5rem;
+        right: 45rem;
+    }
     .welcome{
         position: relative;
         left: 12.5%;
