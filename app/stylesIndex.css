@@ -74,6 +74,7 @@ body{
 }
 
 .welcome{
+    margin-left: 1.5rem;
     font-family: Qualy;
     font-size: 6rem;
     background: linear-gradient(180deg, #7EE70F,#1FA819);
@@ -103,11 +104,11 @@ body{
 }
 .Cesar{
     border-radius:100%;
-    width: 13rem;
-    height: 13rem;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
     right:2rem;
-    top: 7.5rem;
+    top: 9rem;
 
     -webkit-box-shadow: 5px 5px 10px 5px #0d0214; 
     box-shadow: 5px 5px 10px 5px #0d0214;
